@@ -1,3 +1,18 @@
 *{
     font-family: "Ubuntu", sans-serif;
 }
+
+:root{
+    --header-color: #0047ab;
+    --cor-texto: white;
+}
+
+header{
+    background-color: var(--header-color);
+    color: var(--cor-texto);
+}
+
+header a{
+    text-decoration: none;
+    color: var(--cor-texto);
+}
