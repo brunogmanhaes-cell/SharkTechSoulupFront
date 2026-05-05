@@ -1,18 +1,55 @@
-*{
+* {
     font-family: "Ubuntu", sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0;
+    
 }
 
 :root{
     --header-color: #0047ab;
-    --cor-texto: white;
+    --cor-texto-ligth: white;
 }
 
-header{
+.headershark{
+    width: 100%;
     background-color: var(--header-color);
-    color: var(--cor-texto);
+    color: var(--cor-texto-ligth);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1rem;
+    padding: auto;
+    padding-bottom: 10px;
 }
 
-header a{
+.navegacao{
+    gap: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+.navegacao a{
     text-decoration: none;
-    color: var(--cor-texto);
+    font-weight: 500;
+    color: var(--cor-texto-ligth);
+}
+
+
+
+
+
+
+
+@media (max-width: 900px) {
+    .navegacao{
+        gap: 1rem;
+    }
+
+    .headershark{
+    font-size: 0.8rem;
+    }
 }

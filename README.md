@@ -1,1 +1,1 @@
-O proximo que pegar faz a proxima pagina de documentação e comeca a estilizar ela, a index eu ta cmg(Bruno Pires) e depois vou terminar ela, se for estilzar use ou define cores espaçamentos e tals igual eu fiz ali no root com as cores
+FALTA: pagina de quem somos, pagina de sobre e pagina de contato
