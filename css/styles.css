@@ -10,7 +10,12 @@ body{
 
 :root{
     --header-color: #0047ab;
-    --cor-texto-ligth: white;
+    --cor-texto-ligth: aliceblue;
+}
+
+.headershark h1{
+    text-transform: uppercase;
+
 }
 
 .headershark{
@@ -36,9 +41,22 @@ body{
     text-decoration: none;
     font-weight: 500;
     color: var(--cor-texto-ligth);
+    display: inline-block;
+    transition: 0.2s;
 }
 
+.navegacao a:hover{
+    transform: scale(1.2);
+}
 
+.baixo{
+    background-color: black;
+    color: var(--cor-texto-ligth);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}
 
 
 
@@ -46,7 +64,7 @@ body{
 
 @media (max-width: 900px) {
     .navegacao{
-        gap: 1rem;
+        gap: 1.1rem;
     }
 
     .headershark{
